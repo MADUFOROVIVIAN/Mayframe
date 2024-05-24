@@ -1,0 +1,7 @@
+.container {
+    width: 100%;
+    background-image: url(../../Assests/serviceBack.png);
+    background-repeat: no-repeat;
+    margin-bottom: 6rem;
+    background-position: center;
+}

@@ -1,0 +1,36 @@
+.container {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4rem;
+    gap: 2rem;
+    }
+    
+    .consultancyText {
+    width: 50%;
+    }
+    
+    .consultancyText h2{
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 48px;
+    width: 588px;
+    height: 48px;
+    }
+    
+    .consultancyText p{
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.04px;
+    color: #515151;
+    width: 95%;
+    height: 196px;
+    }
+    
+    .consultancyImage {
+        width: 50%;
+    }
