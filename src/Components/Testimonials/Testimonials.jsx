@@ -1,6 +1,6 @@
 import React from 'react'
-import style from "/.Testimonials.module.css"
-
+import style from "./Testimonials.module.css"
+import client from  "../../Assests/client.png"
 const Testimonials = () => {
   return (
     <div className={style.container}>
