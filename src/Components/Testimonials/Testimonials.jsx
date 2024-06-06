@@ -1,7 +1,47 @@
 import React from 'react'
 import style from "./Testimonials.module.css"
 import client from  "../../Assests/client.png"
-const Testimonials = () => {
+import Slider from "react-slick";
+
+function AutoPlay() {
+
+  const settings = {
+    dots: false,
+    infinite: true,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
+    
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 768,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+    ]
+  };
   return (
     <div className={style.container}>
         <div className={style.top}>
@@ -9,21 +49,53 @@ const Testimonials = () => {
             <h2>What Our Students Says About Us</h2>
         </div>
         <div className={style.cards}>
+        <Slider {...settings}>
             <div className={style.cardWrap}>
+              <div className={style.card}>
             <div className={style.cardImage}>
             <img src={client} alt="Client" />
             </div>
-            </div>
-            <h3>Toyosi Wales</h3>
-            <h4>Business woman</h4>
+            <h4>Toyosi Wales</h4>
+            <h5>Business woman</h5>
             <p>
             Mayframe property development exceeded all my expectations
             when it comes to property development. Their attention to detail, exceptional
             craftsmanship, and unwavering commitment to quality are truly unmatched.
             </p>
+            </div>
+            </div>
+            <div className={style.cardWrap}>
+              <div className={style.card}>
+            <div className={style.cardImage}>
+            <img src={client} alt="Client" />
+            </div>
+            <h4>Toyosi Wales</h4>
+            <h5>Business woman</h5>
+            <p>
+            Mayframe property development exceeded all my expectations
+            when it comes to property development. Their attention to detail, exceptional
+            craftsmanship, and unwavering commitment to quality are truly unmatched.
+            </p>
+            </div>
+            </div>
+            <div className={style.cardWrap}>
+              <div className={style.card}>
+            <div className={style.cardImage}>
+            <img src={client} alt="Client" />
+            </div>
+            <h4>Toyosi Wales</h4>
+            <h5>Business woman</h5>
+            <p>
+            Mayframe property development exceeded all my expectations
+            when it comes to property development. Their attention to detail, exceptional
+            craftsmanship, and unwavering commitment to quality are truly unmatched.
+            </p>
+            </div>
+            </div>
+            </Slider>
         </div>
     </div>
-  )
-}
+  );
+};
 
-export default Testimonials
+export default AutoPlay;

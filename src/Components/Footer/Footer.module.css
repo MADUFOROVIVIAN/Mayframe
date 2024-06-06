@@ -1,0 +1,143 @@
+.container {
+  width: 100%;
+  background: #f7f8ff;
+}
+
+footer {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+
+.logoside {
+  width: 35%;
+}
+
+.footside {
+  display: flex;
+  gap: 5rem;
+  width: 60%;
+}
+
+.location {
+  display: flex;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.location p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.04px;
+}
+
+.logoside p span {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+}
+
+.quick h3 {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28.04px;
+  text-align: left;
+  color: #1429a9;
+  margin-bottom: 0.5rem;
+}
+
+.quick p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color: #1f1f21;
+  margin-top: 0.5rem;
+}
+
+.scrollUp {
+  position: relative;
+}
+
+.iconscroll {
+  position: fixed;
+  bottom: 20px;
+  color: #c19d59;
+  right: 10px;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.whatsapp {
+  position: relative;
+}
+
+.whatsappIcon {
+  position: fixed;
+  bottom: 20px;
+  color: green;
+  left: 10px;
+  z-index: 2;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+}
+
+.whatsappIcon:hover {
+  transform: scale(1.3);
+  transition: 0.4s;
+}
+
+@media screen and (max-width: 1024px) {
+  .footside {
+    display: flex;
+    gap: 2rem;
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footSide {
+    gap: 1rem;
+    width: 60%;
+  }
+
+  .location p {
+    font-size: 16px;
+  }
+
+  .logoside p span {
+    font-size: 16px;
+  }
+
+  .quick h3 {
+    font-size: 14px;
+  }
+
+  .quick p {
+    font-size: 14px;
+  }
+
+  .logoSide img {
+    width: 85%;
+  }
+
+  .socials img{
+    width: 15%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+}
+
+@media screen and (max-width: 500px) {
+}

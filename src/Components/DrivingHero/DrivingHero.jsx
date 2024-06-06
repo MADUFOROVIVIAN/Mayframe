@@ -1,17 +1,25 @@
 import React from 'react'
 import style from "./DrivingHero.module.css"
-import Hero from "../Props/Props"
+
 const DrivingHero = () => {
   return (
     <div className={style.container}>
-        <Hero
-        number1="15+"
-        number2="90%"
-        number3="200"
-        para1="Over 15 years of experience "
-        para2="High passing rate"
-        para3="Over 200 students taught"
-        />
+       <div className={style.topContainer}>
+       </div>
+       <div className={style.heroDown}>
+       <div className={style.experience}>
+                <h1>15+</h1>
+                <p>Over 15 years of experience </p>
+              </div>
+              <div className={style.experience}>
+                <h1>90%</h1>
+                <p>High passing rate</p>
+              </div>
+              <div className={style.experience}>
+                <h1>200</h1>
+                <p>Over 200 students taught</p>
+              </div>
+        </div> 
     </div>
   )
 }

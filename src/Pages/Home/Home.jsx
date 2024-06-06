@@ -8,6 +8,7 @@ import Road from "../../Components/Road/Road"
 import Management from "../../Components/Management/Management"
 import Consultancy from "../../Components/Consultancy/Consultancy"
 import Testimonials from '../../Components/Testimonials/Testimonials'
+import Services from "../../Components/Business/Business"
 const Home = () => {
   return (
     <div>
@@ -19,6 +20,7 @@ const Home = () => {
       <Management/>
       <Consultancy/>
       <About/>
+      <Services/>
       <Testimonials/>
       </div>
   )

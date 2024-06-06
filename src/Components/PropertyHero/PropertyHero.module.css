@@ -7,7 +7,8 @@
     width: 100%;
     background-image: url(../../Assests/PropertyHero.png);
     background-repeat: no-repeat;
-    height: 100vh;
+    width: 1440px;
+    height: 900px;
     padding-bottom: 6rem;
     margin-top: -5rem;
 }
