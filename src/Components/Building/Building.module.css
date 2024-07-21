@@ -32,3 +32,23 @@ height: 196px;
 .buildingImage {
     width: 50%;
 }
+
+@media screen and (max-width: 1024px) {
+    .buildingText h2{
+        font-size: 30px;
+        } 
+        
+        .buildingText p{
+            font-size: 16px;
+            }
+
+            .buildingImage img {
+                width: 100%;
+            }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}

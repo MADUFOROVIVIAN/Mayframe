@@ -1,8 +1,19 @@
-import React from 'react'
+import React, {useState} from 'react'
 import style from "./Header.module.css"
 import Logo from "../../Assests/Logo.png"
+import { IoMdMenu } from "react-icons/io";
+import {IoMdClose } from "react-icons/io";
 
 const Header = () => {
+    const [navOpen, setNavOpen] = useState(false);
+  
+    const handleNavToggle = () => {
+      setNavOpen(!navOpen);
+    };
+  
+    const handleNavLinkClick = () => {
+      setNavOpen(false);
+    };
   return (
     <div className='{style.container}'>
         <header>
@@ -11,15 +22,34 @@ const Header = () => {
                 <img src={Logo} alt='Logo' />
                 </a>
             </div>
-            <nav>
+            <nav className={style.navMenu}>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="about">About Us</a></li>
-                    <li><a href="service">Services</a></li>
-                    <li><a href="contact">Contact Us</a></li>
-                    <li><a href="driving">Driving</a></li>
+                    <li><a href="/" onClick={handleNavLinkClick}>Home</a></li>
+                    <li><a href="about" onClick={handleNavLinkClick}>About Us</a></li>
+                    <li><a href="service" onClick={handleNavLinkClick}>Services</a></li>
+                    <li><a href="contact" onClick={handleNavLinkClick}>Contact Us</a></li>
+                    <li><a href="driving" onClick={handleNavLinkClick}>Driving</a></li>
                 </ul>
             </nav>
+            <div className={style.hamburger} onClick={handleNavToggle}>
+          {!navOpen ? (
+            <IoMdMenu className={style.Icons} />
+          ) : (
+            <IoMdClose className={style.Icons} />
+            
+          )}
+        </div>
+        <div className={navOpen ? style.active : style.mobileMenu}>
+        <nav className={style.mobileNav}>
+                <ul>
+                    <li><a href="/" onClick={handleNavLinkClick}>Home</a></li>
+                    <li><a href="about" onClick={handleNavLinkClick}>About Us</a></li>
+                    <li><a href="service" onClick={handleNavLinkClick}>Services</a></li>
+                    <li><a href="contact" onClick={handleNavLinkClick}>Contact Us</a></li>
+                    <li><a href="driving" onClick={handleNavLinkClick}>Driving</a></li>
+                </ul>
+            </nav>
+            </div>
             </header>
         </div>
   )

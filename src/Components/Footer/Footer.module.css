@@ -106,38 +106,84 @@ footer {
 }
 
 @media screen and (max-width: 768px) {
-  .footSide {
+  .footside {
     gap: 1rem;
     width: 60%;
   }
 
   .location p {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .logoside p span {
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .quick h3 {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .quick p {
-    font-size: 14px;
+    font-size: 13px;
   }
 
-  .logoSide img {
+  .logoside img {
     width: 85%;
   }
 
-  .socials img{
-    width: 15%;
+  .socials img {
+    width: 20%;
   }
 }
 
 @media screen and (max-width: 500px) {
-}
+  footer {
+    width: 85%;
+    display: block;
+  }
 
+  .footside {
+    display: block;
+    width: 85%;
+  }
+
+  .logoside p span {
+    font-size: 21px;
+  }
+
+  .quick h3 {
+    font-size: 18px;
+    padding-bottom: 0.5rem;
+  }
+
+  .quick p {
+    font-size: 18px;
+    padding-bottom: 0.5rem;
+  }
+
+  .logoside {
+    width: 85%;
+  }
+
+  .socials img {
+    width: 7%;
+  }
+
+  .footlogo img {
+    width: 50%;
+  }
+
+  .info {
+    margin: 1rem 0;
+  }
+
+  .footlogo {
+    margin-bottom: 1rem;
+  }
+
+  .quick {
+    margin-bottom: 1rem;
+  }
+}
 @media screen and (max-width: 500px) {
 }

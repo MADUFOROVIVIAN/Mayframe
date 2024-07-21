@@ -23,8 +23,7 @@
     font-weight: 500;
     line-height: 28.8px;
     text-align: left;
-    
-}
+    }
 
 .aboutText h3{
     font-family: Lato;
@@ -43,5 +42,26 @@
     text-align: left;
     width: 95%;
     color: #515151;
+}
 
+@media screen and (max-width: 1024px) {
+    .aboutImage img {
+        width: 100%; 
+       }  
+
+       .aboutText h5{
+        font-size: 20px;
+}
+
+       .aboutText h3{
+        font-size: 30px;
+    }
+    
+    .aboutText p{
+        font-size: 14.8px;
+    } 
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
 }

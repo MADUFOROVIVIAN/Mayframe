@@ -1,5 +1,9 @@
-.topContainer{
-    background-image: url(../../Assests//contactHero.png);
+.container {
+    width: 100%;
+    background-image: url(../../Assests/contactHero.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    padding-top: 15rem;
+    margin-bottom: 6rem;
+    background-position: center;
+    /* height: 100vh; */
 }

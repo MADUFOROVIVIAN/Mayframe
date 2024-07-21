@@ -4,6 +4,7 @@ import Hero from "../Props/Props"
 const Service = () => {
   return (
     <div className={style.container}>
+    <div className={style.topContainer}>
       <Hero
       head="this is the services of the website"
       click="Read More"
@@ -16,6 +17,7 @@ const Service = () => {
       para2="CSS"
       para3="JAVASCRIPT"
       />  
+    </div>
     </div>
   )
 }

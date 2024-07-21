@@ -1,36 +1,54 @@
 .container {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
-    gap: 2rem;
-    }
-    
-    .remodelingText {
-    width: 50%;
-    }
-    
-    .remodelingText h2{
-    font-family: Lato;
-    font-size: 38px;
-    font-weight: 600;
-    line-height: 48px;
-    width: 588px;
-    height: 48px;
-    }
-    
-    .remodelingText p{
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.04px;
-    color: #515151;
-    width: 95%;
-    height: 196px;
-    }
-    
-    .remodelingImage {
-        width: 50%;
-    }
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  gap: 2rem;
+}
+
+.remodelingText {
+  width: 50%;
+}
+
+.remodelingText h2 {
+  font-family: Lato;
+  font-size: 38px;
+  font-weight: 600;
+  line-height: 48px;
+  width: 588px;
+  height: 48px;
+}
+
+.remodelingText p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+  width: 95%;
+  height: 196px;
+}
+
+.remodelingImage {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .remodelingText h2 {
+    font-size: 29px;
+  }
+
+  .remodelingText p {
+    font-size: 16px;
+  }
+
+  .remodelingImage img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}

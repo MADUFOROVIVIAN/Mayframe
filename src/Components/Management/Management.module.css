@@ -1,36 +1,55 @@
 .container {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
-    /* gap: 2rem;  */
-    }
-    
-    .managementText {
-    width: 50%;
-    }
-    
-    .managementText h2{
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  /* gap: 2rem;  */
+}
+
+.managementText {
+  width: 50%;
+}
+
+.managementText h2 {
+  font-family: Lato;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  width: 90%;
+  height: 48px;
+}
+
+.managementText p {
+  font-family: Lato;
+  font-size: 18.5px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+  width: 90%;
+  height: 257px;
+}
+
+.managementImage {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .managementText h2 {
+    font-size: 29px;
+  }
+
+  .managementText p {
+    font-size: 15px;
     width: 95%;
-    height: 48px;
-    }
-    
-    .managementText p{
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.04px;
-    color: #515151;
-    width: 99%;
-    height: 257px;
-    }
-    
-    .managementImage {
-        width: 50%;
-    }
+  }
+
+  .managementImage img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
+}

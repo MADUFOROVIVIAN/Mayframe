@@ -1,13 +1,13 @@
 .container{
     width: 100%;
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem;
+    padding: 7rem 0; */
 }
 
 .topContainer{
     width: 100%;
-    background-image: url(../../Assests/PropertyHero.png);
+    /* background-image: url(../../Assests/PropertyHero.png); */
     background-repeat: no-repeat;
-    height: 100vh;
     padding-bottom: 6rem;
     margin-top: -5rem;
 }
@@ -15,7 +15,7 @@
 .innerContainer{
     width: 85%;
     margin: auto;
-    padding-top: 15rem;
+    padding-top: 12rem;
 }
 
 .innerContainer h2{

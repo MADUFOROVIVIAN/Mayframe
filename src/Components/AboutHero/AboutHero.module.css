@@ -1,0 +1,37 @@
+.container {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+.topContainer {
+    width: 100%;
+    background-image: url(../../Assests/aboutBack.png);
+    background-repeat: no-repeat;
+    margin-bottom: 6rem;
+    background-position: center;
+    height: 100vh;
+}
+
+.innerContainer {
+  width: 85%;
+  margin: auto;
+  padding-top: 15rem;
+}
+
+.innerContainer h2 {
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 76.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.innerContainer p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  color: #ffffff;
+}

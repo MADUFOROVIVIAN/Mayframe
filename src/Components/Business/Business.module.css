@@ -39,7 +39,6 @@
   overflow: hidden;
   transition: 0.5s ease;
   height: 0;
-  
 }
 
 .cardImage {
@@ -75,4 +74,26 @@
   line-height: 28.8px;
   color: #ffffff;
   padding: 0 2rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .topBiz h5 {
+    font-size: 18px;
+  }
+
+  .topBiz h3 {
+    font-size: 30px;
+  }
+
+  .cardImage img {
+    width: 100%;
+  }
+
+  .myText h3 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+}
+@media screen and (max-width: 500px) {
 }
