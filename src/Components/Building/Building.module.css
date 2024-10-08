@@ -1,54 +1,108 @@
 .container {
-width: 85%;
-margin: auto;
-display: flex;
-justify-content: space-between;
-align-items: center;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .buildingText {
-width: 50%;
+  width: 50%;
 }
 
-.buildingText h2{
-font-family: Lato;
-font-size: 40px;
-font-weight: 600;
-line-height: 48px;
-width: 70%;
-height: 48px;
+.buildingText h2 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  width: 70%;
+  color: #1f1f21;
 }
 
-.buildingText p{
-font-family: Lato;
-font-size: 18px;
-font-weight: 400;
-line-height: 28.04px;
-color: #515151;
-width: 95%;
-height: 196px;
+.buildingText p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+  width: 95%;
 }
 
 .buildingImage {
-    width: 50%;
+  width: 50%;
+}
+
+.buildingImage img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
-    .buildingText h2{
-        font-size: 30px;
-        } 
-        
-        .buildingText p{
-            font-size: 16px;
-            }
+  .buildingText {
+    width: 55%;
+  }
 
-            .buildingImage img {
-                width: 100%;
-            }
+  .buildingText h2 {
+    font-size: 34px;
+    line-height: 48px;
+    width: 74%;
+  }
+
+  .buildingText p {
+    font-size: 17.5px;
+    line-height: 25.04px;
+  }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 900px) {
+  .buildingText h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  .buildingText p {
+    font-size: 15.5px;
+    line-height: 24.04px;
+  }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 768px) {
+  .buildingText h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .buildingText p {
+    font-size: 14px;
+    line-height: 19.04px;
+  }
 }
+
 @media screen and (max-width: 500px) {
+  .container {
+    display: block;
+  }
+
+  .buildingText {
+    width: 95%;
+  }
+
+  .buildingText p {
+    margin-bottom: 1rem;
+  }
+
+  .buildingImage {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .buildingText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .buildingText h2 {
+    width: 85%;
+  }
 }

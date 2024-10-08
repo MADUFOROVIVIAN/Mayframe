@@ -1,65 +1,67 @@
 .container {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 4rem;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
 }
 
 .aboutText {
-    width: 50%;
+  width: 50%;
 }
 
 .aboutImage {
- width: 50%;
- display: flex;
- gap: 1rem;   
+  width: 50%;
+  display: flex;
+  gap: 1rem;
 }
 
-.aboutText h5{
-    font-family: Lato;
-    font-size: 24px;
-    font-weight: 500;
-    line-height: 28.8px;
-    text-align: left;
-    }
-
-.aboutText h3{
-    font-family: Lato;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 48px;
-    text-align: left;
-    width: 70%;
+.aboutText h5 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  color: #c19d59;
 }
 
-.aboutText p{
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 28.04px;
-    text-align: left;
-    width: 95%;
-    color: #515151;
+.aboutText h3 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  width: 70%;
+  color: #1f1f21;
+}
+
+.aboutText p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  width: 95%;
+  color: #515151;
 }
 
 @media screen and (max-width: 1024px) {
-    .aboutImage img {
-        width: 100%; 
-       }  
+  .aboutImage img {
+    width: 100%;
+  }
 
-       .aboutText h5{
-        font-size: 20px;
-}
+  .aboutText h5 {
+    font-size: 20px;
+  }
 
-       .aboutText h3{
-        font-size: 30px;
-    }
-    
-    .aboutText p{
-        font-size: 14.8px;
-    } 
+  .aboutText h3 {
+    font-size: 30px;
+  }
+
+  .aboutText p {
+    font-size: 14.8px;
+  }
 }
 @media screen and (max-width: 500px) {
 }

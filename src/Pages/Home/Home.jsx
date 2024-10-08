@@ -1,29 +1,19 @@
-import React from 'react'
-import Hero from "../../Components/PropertyHero/Property"
-import About from "../../Components/PropertyAbout/PropertyAbout"
-import Building from "../../Components/Building/Building"
-import Remodeling from "../../Components/Remodeling/Remodeling"
-import Housing from "../../Components/Housing/Housing"
-import Road from "../../Components/Road/Road"
-import Management from "../../Components/Management/Management"
-import Consultancy from "../../Components/Consultancy/Consultancy"
-import Testimonials from '../../Components/Testimonials/Testimonials'
-import Services from "../../Components/Business/Business"
+import React from "react";
+import Hero from "../../Components/LandingHero/LandingHero";
+import Group from "../../Components/Group/Group";
+import Services from "../../Components/Business/Business";
+import Values from "../../Components/Values/Values";
+import Competence from "../../Components/Competence/Competence";
 const Home = () => {
   return (
     <div>
-      <Hero/>
-      <Building/>
-      <Remodeling/>
-      <Housing/>
-      <Road/>
-      <Management/>
-      <Consultancy/>
-      <About/>
-      <Services/>
-      <Testimonials/>
-      </div>
-  )
-}
+      <Hero />
+      <Group />
+      <Services />
+      <Values />
+      <Competence />
+    </div>
+  );
+};
 
-export default Home
+export default Home;

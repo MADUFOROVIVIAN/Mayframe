@@ -3,7 +3,6 @@ import style from "./Business.module.css";
 import consult from "../../Assests/consult.png";
 import investment from "../../Assests/investment.png";
 import property from "../../Assests/property.png";
-import agro from "../../Assests/agro.png";
 import drive from "../../Assests/drive.png";
 import { Link } from "react-router-dom";
 
@@ -37,6 +36,7 @@ const Business = () => {
               </Link>
             </div>
           </div>
+
           <div className={style.cardImage}>
             <img src={investment} alt="Investment" />
             <div className={style.myText}>
@@ -57,6 +57,7 @@ const Business = () => {
             </div>
           </div>
         </div>
+
         <div className={style.cardWrap}>
           <div className={style.cardImage}>
             <img src={property} alt="Property" />
@@ -70,28 +71,12 @@ const Business = () => {
                 opportunities, develops residential and commercial properties,
                 and offers flexible leasing options to suit the needs of tenants
               </p>
-              <Link to ="/service">
+              <Link to ="/property">
               <h5>Learn more &#8594;</h5>
               </Link>
             </div>
           </div>
-          <div className={style.cardImage}>
-            <img src={agro} alt="Agro" />
-            <div className={style.myText}>
-              <h3>Farms & Agro-Allied</h3>
-              <p>
-                With a focus on agriculture and farming, Mayframe has
-                established a strong presence in the agro-industry. The company
-                owns and manages a portfolio of farms that cultivate a variety
-                of crops and engage in livestock rearing. By implementing modern
-                farming techniques, sustainable practices, and leveraging
-                technology.
-              </p>
-              <Link to ="/about">
-              <h5>Learn more &#8594;</h5>
-              </Link>
-            </div>
-          </div>
+
           <div className={style.cardImage}>
             <img src={drive} alt="Drive" />
             <div className={style.myText}>

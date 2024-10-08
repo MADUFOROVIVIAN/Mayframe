@@ -8,6 +8,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .driveForm {
@@ -29,7 +30,10 @@ form {
   padding: 2rem 1rem;
 }
 
-form input {
+form textarea {
+  font-family: Lato;
+  font-size: 14px;
+  color: rgba(81, 81, 81, 1);
   background: rgba(244, 241, 241, );
   width: 100%;
   padding: 0.5rem;

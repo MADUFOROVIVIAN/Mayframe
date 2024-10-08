@@ -1,81 +1,185 @@
-.container{
-    width: 100%;
-    /* margin-bottom: 3rem;
-    padding: 7rem 0; */
+.container {
+  width: 100%;
 }
 
-.topContainer{
-    width: 100%;
-    /* background-image: url(../../Assests/PropertyHero.png); */
-    background-repeat: no-repeat;
-    padding-bottom: 6rem;
-    margin-top: -5rem;
+.topContainer {
+  width: 100%;
+  /* background-image: url(../../Assests/PropertyHero.png); */
+  background-repeat: no-repeat;
+  padding-bottom: 6rem;
+  margin-top: -5rem;
 }
 
-.innerContainer{
-    width: 85%;
-    margin: auto;
-    padding-top: 12rem;
+.innerContainer {
+  width: 85%;
+  margin: auto;
+  padding-top: 18rem;
 }
 
-.innerContainer h2{
-    font-size: 45px;
-    font-weight: 700;
-    margin-bottom: 2rem;
-    color: #fff;
-    width: 70%;
-    font-family: Lato;
+.innerContainer h2 {
+  font-family: Lato;
+  font-size: 55px;
+  font-weight: 900;
+  line-height: 76.8px;
+  color: #ffffff;
+  width: 50%;
+  margin-bottom: 1rem;
 }
 
-.btnFlex{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 20px;
+.btnFlex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
-.flex button{
-    background: rgb(2,2,98);
-    color: #fff;
-    font-size: 14px;
-    padding: 1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family: lato;
+.flex button {
+  background: rgb(2, 2, 98);
+  color: #fff;
+  font-size: 14px;
+  padding: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: lato;
 }
 
-.btnFlex p{
-   font-size: 18px;
-   font-weight: 700;
-   color: #fff;
-   width: 30%;
-   font-family: lato;
+.btnFlex p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32.04px;
+  color: #fff;
+  width: 45%;
+  margin-top: 5rem;
 }
 
 .heroDown {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    background: #fff;
-    padding: 1rem 2rem;
-    margin-top: -2rem;
-    border-bottom: 1.5px solid rgba(227 227 227 0.9333);
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem 2rem;
+  border-bottom: 1.5px solid rgba(227 227 227 0.9333);
 }
 
-.project h1{
-    font-size: 40px;
-    font-weight: 700;
-    color: rgb(2,2,98);
-    margin-bottom: 20px;
-    font-family: inter;
-    line-height: 48.41px;
+.project h1 {
+  font-size: 40px;
+  font-weight: 700;
+  color: rgb(2, 2, 98);
+  margin-bottom: 20px;
+  font-family: inter;
+  line-height: 48.41px;
 }
 
-.project p{
-    font-family: inter;
+.project p {
+  font-family: inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24.2px;
+  color: #515151;
+}
+
+@media screen and (max-width: 1024px) {
+  .innerContainer h2 {
+    font-size: 45px;
+    line-height: 64px;
+  }
+
+  .flex button {
     font-size: 16px;
+  }
+
+  .btnFlex p {
+    font-size: 23px;
+    line-height: 32px;
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .innerContainer h2 {
+    font-size: 40px;
+    line-height: 59px;
+  }
+
+  .btnFlex p {
+    font-size: 20px;
+    line-height: 29px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .innerContainer {
+    padding-top: 19rem;
+  }
+
+  .innerContainer h2 {
+    font-size: 34px;
+    line-height: 49px;
+  }
+
+  .btnFlex p {
+    font-size: 17px;
+    line-height: 24px;
+  }
+
+  .topContainer {
+    padding-bottom: 13rem;
+    margin-top: -5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .topContainer {
+    padding-bottom: 15rem;
+  }
+
+  .btnFlex {
+    display: block;
+    margin-bottom: 0px;
+  }
+
+  .innerContainer h2 {
+    font-size: 35px;
+    line-height: 42px;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  .btnFlex p {
+    font-size: 18px;
+    line-height: 25px;
+    width: 95%;
+    margin-top: 1rem;
+  }
+
+  .heroDown {
+    display: block;
+  }
+
+  .project h1 {
+    font-size: 30px;
+    margin-bottom: 1px;
+    line-height: 38px;
+  }
+
+  .project p {
+    font-size: 18px;
     font-weight: 400;
     line-height: 24.2px;
-   
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .innerContainer h2 {
+    font-size: 30px;
+    line-height: 38px;
+  }
+
+  .btnFlex p {
+    font-size: 16px;
+    line-height: 20px;
+  }
 }

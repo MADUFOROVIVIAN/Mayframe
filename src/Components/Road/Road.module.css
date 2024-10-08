@@ -9,7 +9,7 @@
 }
 
 .roadText {
-  width: 50%;
+  width: 52%;
 }
 
 .roadText h2 {
@@ -17,39 +17,84 @@
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
-  width: 588px;
-  height: 48px;
+  color: #1f1f21;
 }
 
 .roadText p {
   font-family: Lato;
-  font-size: 17.7px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 28.04px;
   color: #515151;
-  width: 90%;
-  height: 196px;
+  width: 100%;
 }
 
 .roadImage {
-  width: 50%;
+  width: 48%;
+}
+
+.roadImage img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    gap: 1rem;
+  }
+
+  .roadText {
+    width: 53%;
+  }
+
   .roadText h2 {
     font-size: 30px;
   }
 
   .roadText p {
-    font-size: 15px;
+    font-size: 17px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .roadText p {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .roadText h2 {
+    font-size: 25px;
+  }
+
+  .roadText p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+  }
+
+  .roadText {
     width: 95%;
   }
 
-  .roadImage img {
+  .roadText h2 {
+   line-height: 35px;
+  }
+
+  .roadText p {
+  line-height: 19.04px;
+  }
+
+  .roadImage {
     width: 100%;
   }
 }
-@media screen and (max-width: 500px) {
-}
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 425px) {
+  .roadText {
+    width: 100%;
+  }
 }

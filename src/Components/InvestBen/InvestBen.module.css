@@ -1,0 +1,125 @@
+.container {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.title h1 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color: #1f1f21;
+  margin-bottom: 2rem;
+}
+
+.benefits {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  gap: 1rem;
+}
+
+.core {
+  width: 50%;
+}
+
+.coreImage {
+  margin-bottom: 1rem;
+}
+.benImage {
+  margin-bottom: 1rem;
+}
+
+.coreText h1 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  text-align: left;
+  color: #1f1f21;
+  margin-bottom: 1rem;
+}
+
+.coreText p {
+  font-family: Lato;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 29.4px;
+  text-align: left;
+  color: #515151;
+  width: 100%;
+}
+
+.benefits2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1024px) {
+  .coreText p {
+    font-size: 18px;
+    line-height: 26.4px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .coreText p {
+    font-size: 16px;
+    line-height: 24.4px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .title h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+
+  .coreText h1 {
+    font-size: 21px;
+    line-height: 24.8px;
+  }
+
+  .coreText p {
+    font-size: 14px;
+    line-height: 22.4px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: 3rem;
+  }
+
+  .title h1 {
+    font-size: 25px;
+    line-height: 30px;
+    margin-bottom: 1rem;
+  }
+
+  .benefits {
+    display: block;
+    margin-bottom: 0rem;
+  }
+
+  .core {
+    width: 85%;
+  }
+
+  .coreText h1 {
+    font-size: 18px;
+    line-height: 21.8px;
+    margin-bottom: 0.5rem;
+  }
+
+  .coreText p {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .core {
+    width: 95%;
+  }
+}

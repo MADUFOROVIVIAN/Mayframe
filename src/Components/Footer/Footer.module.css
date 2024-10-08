@@ -21,6 +21,14 @@ footer {
   width: 60%;
 }
 
+.footlogo {
+  margin-bottom: 1rem;
+}
+
+.info {
+  margin-top: 1rem;
+}
+
 .location {
   display: flex;
   gap: 0.5rem;
@@ -29,17 +37,19 @@ footer {
 
 .location p {
   font-family: Lato;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
+  color: #1f1f21
 }
 
 .logoside p span {
   font-family: Lato;
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
   text-align: left;
+  color: #1f1f21
 }
 
 .quick h3 {
@@ -184,6 +194,4 @@ footer {
   .quick {
     margin-bottom: 1rem;
   }
-}
-@media screen and (max-width: 500px) {
 }

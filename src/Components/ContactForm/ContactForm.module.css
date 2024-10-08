@@ -1,0 +1,328 @@
+.container {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+
+.contactText h1 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 53.4px;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  color: #1f1f21;
+}
+
+.contactFlex {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flexText {
+  width: 50%;
+}
+
+.flexText p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color: #515151;
+  width: 45%;
+}
+
+.call {
+  display: flex;
+  align-items: center;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.callImage {
+  position: relative;
+  color: #c19d59;
+}
+
+.call2 {
+  margin-top: -1.05rem;
+  color: #c19d59;
+}
+
+.callNum p {
+  width: 80%;
+}
+
+.mail {
+  display: flex;
+  align-items: center;
+  width: 45%;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.mailtext p {
+  width: 100%;
+}
+
+.schedule h2 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 53.4px;
+  text-align: left;
+  color: #1f1f21;
+}
+
+.schedule p {
+  margin-bottom: 1rem;
+}
+
+.follow h2 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 53.4pxpx;
+  text-align: left;
+  color: #1f1f21;
+  margin-bottom: 1rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 23%;
+}
+
+.xIcon {
+  width: 20px;
+  height: 20px;
+  color: #c19d59;
+  cursor: pointer;
+}
+
+.instaIcon {
+  width: 20px;
+  height: 20px;
+  color: #c19d59;
+  cursor: pointer;
+}
+
+.inIcon {
+  width: 20px;
+  height: 20px;
+  color: #c19d59;
+  cursor: pointer;
+}
+
+.fbIcon {
+  width: 20px;
+  height: 20px;
+  color: #c19d59;
+  cursor: pointer;
+}
+
+.flexForm {
+  width: 50%;
+}
+
+form {
+  background: rgba(255, 255, 255, 1);
+  border-radius: 8px;
+}
+
+form textarea {
+  font-family: Lato;
+  font-size: 14px;
+  color: rgba(81, 81, 81, 1);
+  background: #cacaca;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  border: 1px solid rgba(202, 202, 202, 1);
+}
+
+::placeholder {
+  color: rgba(81, 81, 81, 1);
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.36px;
+}
+
+.formButton {
+  background: rgba(20, 41, 169, 1);
+  width: 30%;
+  color: #fff;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
+}
+
+.message {
+  padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .flexText p {
+    font-size: 16px;
+    width: 60%;
+  }
+
+  .call {
+    width: 80%;
+  }
+
+  .callNum p {
+    width: 90%;
+  }
+
+  .mail {
+    width: 60%;
+  }
+
+  .mailtext p {
+    width: 100%;
+  }
+
+  .socials {
+    width: 30%;
+  }
+
+  .formButton {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .flexText p {
+    width: 70%;
+  }
+
+  .call {
+    width: 90%;
+  }
+
+  .mail {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .flexText p {
+    width: 85%;
+  }
+
+  .call {
+    width: 95%;
+  }
+
+  .callNum p {
+    font-size: 14px;
+  }
+
+  .mail {
+    width: 80%;
+  }
+
+  .mailtext p {
+    width: 100%;
+  }
+
+  .socials {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: 1rem;
+  }
+
+  .contactText h1 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .contactFlex {
+    display: block;
+  }
+
+  .flexText {
+    width: 100%;
+  }
+
+  .flexText p {
+    width: 80%;
+    font-size: 18px;
+  }
+
+  .call {
+    width: 100%;
+  }
+
+  .callNum p {
+    font-size: 17px;
+    width: 85%;
+  }
+
+  .mail {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+
+  .mailtext p {
+    width: 100%;
+  }
+
+  .schedule h2 {
+    font-size: 25px;
+    line-height: 40px;
+  }
+
+  .follow h2 {
+    font-size: 25px;
+    line-height: 40px;
+    margin-bottom: 0.5rem;
+  }
+
+  .flexForm {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flexText p {
+    width: 95%;
+  }
+
+  .call {
+    width: 100%;
+    gap: 1rem;
+  }
+
+  .callNum p {
+    font-size: 16px;
+  }
+
+  .mail {
+    width: 90%;
+    margin-bottom: 1rem;
+  }
+
+  .mailtext p {
+    width: 100%;
+  }
+}

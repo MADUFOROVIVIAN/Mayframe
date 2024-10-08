@@ -3,8 +3,12 @@ import { useRoutes } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import About from './Pages/About/About'
 import Contact from './Pages/Contact/Contact'
-import Services from './Pages/Services/Services'
+import Consultancy from './Pages/Consultancy/Consultancy'
+import Investment from './Pages/Investment/Investment'
+import Property from './Pages/Property/Property'
 import Driving from './Pages/Driving/Driving'
+
+
 const Router = () => {
   return useRoutes(
     [
@@ -19,9 +23,16 @@ const Router = () => {
       { path: '/contact', 
       element: <Contact/>
     },
+      { path: '/consultancy', 
+      element: <Consultancy/>
+    },
 
-      { path: 'service', 
-      element: <Services/>
+      { path: '/investment', 
+      element: <Investment/>
+    },
+
+    { path: 'property', 
+      element: <Property/>
     },
 
       { path: 'driving',  

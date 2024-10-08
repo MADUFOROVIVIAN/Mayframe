@@ -55,7 +55,7 @@ function AutoPlay() {
             <div className={style.cardImage}>
             <img src={client} alt="Client" />
             </div>
-            <h4>Toyosi Wales</h4>
+            <h4>Tolu Oyeh</h4>
             <h5>Business woman</h5>
             <p>
             Mayframe property development exceeded all my expectations
@@ -69,7 +69,7 @@ function AutoPlay() {
             <div className={style.cardImage}>
             <img src={client} alt="Client" />
             </div>
-            <h4>Toyosi Wales</h4>
+            <h4>Tolu Oyeh</h4>
             <h5>Business woman</h5>
             <p>
             Mayframe property development exceeded all my expectations
@@ -83,7 +83,7 @@ function AutoPlay() {
             <div className={style.cardImage}>
             <img src={client} alt="Client" />
             </div>
-            <h4>Toyosi Wales</h4>
+            <h4>Tolu Oyeh</h4>
             <h5>Business woman</h5>
             <p>
             Mayframe property development exceeded all my expectations

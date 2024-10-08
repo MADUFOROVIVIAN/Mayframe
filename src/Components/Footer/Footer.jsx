@@ -23,7 +23,6 @@ const Footer = () => {
             <img src={footlogo} alt="footlogo" />
           </div>
           <p>
-            {" "}
             <span>
               We are all about empowering growth and transforming industries
             </span>
@@ -94,10 +93,9 @@ const Footer = () => {
 
         <div className={style.whatsapp}>
           <a href="https://wa.me/qr/K62V3OTIYAFSP1">
-        <FaWhatsappSquare className={style.whatsappIcon} />
-        </a>
+            <FaWhatsappSquare className={style.whatsappIcon} />
+          </a>
         </div>
-
       </footer>
     </div>
   );

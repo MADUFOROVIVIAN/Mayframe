@@ -5,7 +5,6 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 4rem;
-  /* gap: 2rem;  */
 }
 
 .managementText {
@@ -18,38 +17,86 @@
   font-weight: 700;
   line-height: 48px;
   width: 90%;
-  height: 48px;
 }
 
 .managementText p {
   font-family: Lato;
-  font-size: 18.5px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 28.04px;
   color: #515151;
-  width: 90%;
-  height: 257px;
+  width: 100%;
 }
 
 .managementImage {
-  width: 50%;
+  width: 48%;
+}
+
+.managementImage img{
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
   .managementText h2 {
-    font-size: 29px;
+    font-size: 30px;
   }
 
   .managementText p {
-    font-size: 15px;
-    width: 95%;
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .managementText h2 {
+    font-size: 27px;
+    width: 100%;
   }
 
-  .managementImage img {
+  .managementText p {
+    font-size: 15.5px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .managementText h2 {
+    font-size: 25px;
+  }
+
+  .managementText p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    margin-top: 2rem;
+  }
+  
+  .managementText {
+    width: 95%;
+  }
+  
+  .managementImage {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 500px) {
+  .managementText p {
+    line-height: 19.04px;
+   margin-bottom: 1rem;
+  }
 }
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 425px) {
+  .managementText {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .managementText h2 {
+    font-size: 23px;
+  }
 }

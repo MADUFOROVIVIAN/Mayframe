@@ -1,9 +1,49 @@
 .container {
-    width: 100%;
-    background-image: url(../../Assests/contactHero.png);
-    background-repeat: no-repeat;
-    padding-top: 15rem;
-    margin-bottom: 6rem;
-    background-position: center;
-    /* height: 100vh; */
+  width: 100%;
+  background-image: url(../../Assests/contactHero.png);
+  background-repeat: no-repeat;
+  padding-top: 21rem;
+  margin-bottom: 6rem;
+  background-position: center;
+  height: 120vh;
+}
+
+.innerContainer {
+  width: 85%;
+  margin: auto;
+}
+
+.innerContainer h2 {
+  font-family: Lato;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 76.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+.innerContainer p {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28.8px;
+  text-align: left;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: 2rem;
+    height: 90vh;
+  }
+
+  .innerContainer h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .innerContainer p {
+    font-size: 17px;
+    line-height: 18.69px;
+  }
 }

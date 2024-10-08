@@ -27,6 +27,7 @@ li {
   cursor: pointer;
   font-family: Lato;
   line-height: 28.1px;
+  color: #1f1f21;
 }
 
 a {
@@ -46,10 +47,34 @@ a {
     display: none;
 } */
 
+@media screen and (max-width: 1024px) {
+  ul {
+    gap: 1rem;
+  }
+
+  li {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  header {
+    width: 90%;
+  }
+
+  li {
+    font-size: 16px;
+  }
+}
+
 @media screen and (max-width: 768px) {
- .navMenu{
+  li {
+    font-size: 20px;
+  }
+
+  .navMenu {
     display: none;
- }
+  }
 
   .mobileMenu {
     position: absolute;
@@ -71,12 +96,12 @@ a {
     transition: 3s;
   }
 
-  ul{
+  ul {
     display: block;
   }
 
-  .active a{
-  color: #fff;
-  padding: 3rem;
+  .active a {
+    color: #fff;
+    padding: 3rem;
   }
 }

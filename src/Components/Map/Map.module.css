@@ -1,0 +1,69 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.mapText {
+  width: 50%;
+}
+
+.mapText h1 {
+  font-family: Lato;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 53.4px;
+  text-align: left;
+  color: #1f1f21;
+}
+
+.mapText p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 37.38px;
+  text-align: left;
+  color: #1f1f21;
+}
+
+.mapText p2 {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.04px;
+  text-align: left;
+  color: #1f1f21;
+}
+
+.mapImage {
+  width: 50%;
+  margin-right: -1rem;
+}
+
+.mapImage img {
+  width: 100%;
+}
+
+@media screen and (max-width: 500px){
+  .container {
+    display: block;
+  }
+
+  .mapText h1 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .mapText {
+    width: 100%;
+  margin-bottom: 1rem;
+  }
+
+  .mapImage {
+    width: 100%;
+    margin-right: 0rem;
+  }
+}

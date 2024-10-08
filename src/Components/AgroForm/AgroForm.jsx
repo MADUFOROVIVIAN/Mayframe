@@ -37,10 +37,10 @@ const AgroForm = () => {
         <div className={style.driveForm}>
           <form ref={form} onSubmit={sendEmail}>
             <h3>Contact Us</h3>
-            <input type="text" name="Full_name" placeholder="Full Name" /><br />
-            <input type="email" name="Email" placeholder="Email Address" /><br />
-            <input type="phone" name="Phone" placeholder="Phone Number" /><br />
-            <input type="text" name="Message" placeholder="Message" className={style.message}/><br />
+            <textarea type="text" name="Full_name" placeholder="Full Name" /><br />
+            <textarea type="email" name="Email" placeholder="Email Address" /><br />
+            <textarea type="phone" name="Phone" placeholder="Phone Number" /><br />
+            <textarea type="text" name="Message" placeholder="Message" className={style.message}/><br />
             <button>Send Message</button>
             <div className={style.row}>{response ? <Response /> : null } </div>
           </form>

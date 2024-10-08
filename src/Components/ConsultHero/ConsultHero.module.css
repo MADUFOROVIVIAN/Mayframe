@@ -1,0 +1,17 @@
+.topContainer {
+  width: 100%;
+  background-image: url(../../Assests/contact.png);
+  background-repeat: no-repeat;
+  height: 100hv;
+  padding-bottom: 3rem;
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 500px) {
+  .topContainer {
+    padding-bottom: 0rem;
+    margin-top: 8rem;
+    margin-bottom: 0rem;
+  }
+}

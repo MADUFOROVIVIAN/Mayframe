@@ -4,12 +4,12 @@
 }
 
 .topContainer {
-    width: 100%;
-    background-image: url(../../Assests/aboutBack.png);
-    background-repeat: no-repeat;
-    margin-bottom: 6rem;
-    background-position: center;
-    height: 100vh;
+  width: 100%;
+  background-image: url(../../Assests/aboutBack.png);
+  background-repeat: no-repeat;
+  margin-bottom: 6rem;
+  background-position: center;
+  height: 100vh;
 }
 
 .innerContainer {
@@ -34,4 +34,26 @@
   line-height: 28.8px;
   text-align: left;
   color: #ffffff;
+}
+
+@media screen and (max-width: 1024px) {
+  .innerContainer {
+    padding-top: 21rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .innerContainer {
+    padding-top: 21rem;
+  }
+
+  .innerContainer h2 {
+    font-size: 25px;
+    line-height: 30px;
+  }
+
+  .innerContainer p {
+    font-size: 17px;
+    line-height: 18.69px;
+  }
 }

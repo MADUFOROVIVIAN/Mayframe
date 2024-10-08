@@ -1,0 +1,122 @@
+.container {
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4rem;
+}
+
+.aboutText {
+  width: 50%;
+}
+
+.aboutText h1 {
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 28.8px;
+  color: #c19d59;
+  margin-bottom: 1rem;
+}
+
+.aboutText h2 {
+  font-family: Lato;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 1rem;
+  color: #1F1F21;
+}
+
+.aboutText p {
+  font-family: Lato;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.04px;
+  color: #515151;
+  width: 95%;
+}
+
+.aboutImage {
+  width: 50%;
+}
+
+.aboutImage img {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px){
+    .aboutText p {
+        
+        font-size: 16px;
+        line-height: 26px;
+      }
+}
+
+@media screen and (max-width: 900px){
+    .aboutText h1 {
+        font-size: 21px;
+        line-height: 27px;
+        margin-bottom: .5rem;
+      }
+
+      .aboutText h2 {
+        font-size: 35px;
+        line-height: 40px;
+        margin-bottom: .5rem;
+      }
+
+      .aboutText {
+        width: 70%;
+      }
+      
+}
+
+@media screen and (max-width: 500px){
+    .container {
+        display: block;
+        margin-bottom: 3rem;
+      }
+      
+      .aboutText {
+        width: 100%;
+      }
+      
+      .aboutText h1 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+      
+      .aboutText h2 {
+        font-size: 30px;
+        line-height: 38px;
+      }
+      
+      .aboutText p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 100%;
+        margin-bottom: 1rem;
+      }
+      
+      .aboutImage {
+        width: 100%;
+      }
+}
+@media screen and (max-width: 375px){
+    .aboutText h1 {
+        font-size: 18px;
+        line-height: 20px;
+      }
+      
+      .aboutText h2 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+      
+      .aboutText p {
+        font-size: 14px;
+        line-height: 20px;
+      }
+}
