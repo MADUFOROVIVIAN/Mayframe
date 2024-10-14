@@ -64,10 +64,12 @@
 @media screen and (max-width: 768px) {
   .roadText h2 {
     font-size: 25px;
+    line-height: 35px;
   }
 
   .roadText p {
     font-size: 14px;
+    line-height: 21.08px;
   }
 }
 
@@ -78,14 +80,6 @@
 
   .roadText {
     width: 95%;
-  }
-
-  .roadText h2 {
-   line-height: 35px;
-  }
-
-  .roadText p {
-  line-height: 19.04px;
   }
 
   .roadImage {

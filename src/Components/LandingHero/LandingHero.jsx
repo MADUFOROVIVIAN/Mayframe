@@ -1,5 +1,7 @@
 import React from "react";
 import style from "./LandingHero.module.css";
+import { Link } from "react-router-dom";
+
 const LandingHero = () => {
   return (
     <div className={style.container}>
@@ -10,7 +12,9 @@ const LandingHero = () => {
           success that assist businesses in various domains.
         </p>
         <div className={style.innerButton}>
+        <Link to ="/consultancy">
           <button>Explore More</button>
+          </Link>
         </div>
       </div>
     </div>

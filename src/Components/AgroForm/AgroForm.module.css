@@ -34,7 +34,7 @@ form textarea {
   font-family: Lato;
   font-size: 14px;
   color: rgba(81, 81, 81, 1);
-  background: rgba(244, 241, 241, );
+  background: rgba(244, 241, 241);
   width: 100%;
   padding: 0.5rem;
   border-radius: 4px;
@@ -76,4 +76,92 @@ form button {
 
 .message {
   padding-bottom: 4rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .driveText h3 {
+    font-size: 35px;
+    width: 100%;
+  }
+
+  form textarea {
+    font-size: 13px;
+  }
+
+  .message {
+    padding-bottom: 3rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .driveText h3 {
+    font-size: 30px;
+  }
+
+  form h3 {
+    font-size: 25px;
+    line-height: 47.42px;
+  }
+
+  form textarea {
+    padding: 0.3rem;
+  }
+
+  form button {
+    font-size: 16px;
+    line-height: 30.04px;
+  }
+
+  .message {
+    padding-bottom: 2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .driveText h3 {
+    font-size: 25px;
+    line-height: 36px;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    margin-bottom: 3rem;
+  }
+
+  .driveText h3 {
+    margin-bottom: 1rem;
+  }
+
+  .driveForm {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .driveText h3 {
+    font-size: 23px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  form h3 {
+    font-size: 23px;
+    line-height: 40.42px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .driveText h3 {
+    font-size: 20px;
+    line-height: 30px;
+    width: 100%;
+  }
+
+  form h3 {
+    font-size: 20px;
+    line-height: 40.42px;
+  }
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./WelcomeHero.module.css";
+
 const WelcomeHero = () => {
   return (
     <div className={style.container}>
@@ -39,7 +40,6 @@ const WelcomeHero = () => {
           est sit aliqua dolor do amet sint. Velit off.
         </p>
       </div>
-
     </div>
   );
 };

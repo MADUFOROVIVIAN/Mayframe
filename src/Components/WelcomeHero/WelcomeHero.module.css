@@ -40,6 +40,12 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: 1rem;
+  }
+}
+
 @media screen and (max-width: 900px) {
   .heroText h1 {
     font-size: 35px;

@@ -42,7 +42,21 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    margin-bottom: -2rem;
+  }
+}
+
 @media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: -2rem;
+  }
+
+  .topContainer {
+    height: 70vh;
+  }
+
   .innerContainer {
     padding-top: 21rem;
   }

@@ -6,6 +6,7 @@ import headphone from "../../Assests/headphone.png";
 import chart from "../../Assests/chart.png";
 import test1 from "../../Assests/test1.png";
 import test2 from "../../Assests/test2.png";
+
 const Academy = () => {
   return (
     <div className={style.container}>
@@ -22,6 +23,7 @@ const Academy = () => {
             individuals with the necessary skills to navigate the roads with
             responsibility.
           </p>
+
           <div className={style.academyTexts}>
             <div className={style.academyText}>
               <div className={style.academyImage}>
@@ -44,6 +46,7 @@ const Academy = () => {
               </p2>
             </div>
           </div>
+
           <div className={style.academyTexts}>
             <div className={style.academyText}>
               <div className={style.academyImage}>
@@ -59,7 +62,7 @@ const Academy = () => {
               <div className={style.academyImage}>
                 <img src={chart} alt="Chart" />
                 <div className={style.improveText}>
-                <h4>Continuous Improvement</h4>
+                  <h4>Continuous Improvement</h4>
                 </div>
               </div>
               <p2>

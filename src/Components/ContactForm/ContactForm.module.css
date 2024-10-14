@@ -28,20 +28,21 @@
 
 .flexText p {
   font-family: Lato;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 28.04px;
   text-align: left;
   color: #515151;
-  width: 45%;
+  width: 57%;
 }
 
 .call {
   display: flex;
   align-items: center;
-  width: 60%;
+  width: 75%;
   justify-content: space-between;
   margin-top: 1rem;
+  gap: 1rem;
 }
 
 .callImage {
@@ -61,7 +62,7 @@
 .mail {
   display: flex;
   align-items: center;
-  width: 45%;
+  width: 53%;
   justify-content: space-between;
   margin-top: 1rem;
 }
@@ -177,12 +178,11 @@ form textarea {
 
 @media screen and (max-width: 1024px) {
   .flexText p {
-    font-size: 16px;
-    width: 60%;
+    width: 72%;
   }
 
   .call {
-    width: 80%;
+    width: 90%;
   }
 
   .callNum p {
@@ -190,7 +190,7 @@ form textarea {
   }
 
   .mail {
-    width: 60%;
+    width: 70%;
   }
 
   .mailtext p {
@@ -208,33 +208,25 @@ form textarea {
 
 @media screen and (max-width: 900px) {
   .flexText p {
-    width: 70%;
+    width: 100%;
   }
 
   .call {
-    width: 90%;
+    width: 100%;
   }
 
   .mail {
-    width: 70%;
+    width: 80%;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .flexText p {
-    width: 85%;
-  }
-
-  .call {
-    width: 95%;
-  }
-
   .callNum p {
     font-size: 14px;
   }
 
   .mail {
-    width: 80%;
+    width: 93%;
   }
 
   .mailtext p {
@@ -265,12 +257,12 @@ form textarea {
   }
 
   .flexText p {
-    width: 80%;
+    width: 78%;
     font-size: 18px;
   }
 
   .call {
-    width: 100%;
+    width: 95%;
   }
 
   .callNum p {
@@ -279,7 +271,7 @@ form textarea {
   }
 
   .mail {
-    width: 80%;
+    width: 72%;
     margin-bottom: 1rem;
   }
 
@@ -303,26 +295,35 @@ form textarea {
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 425px) {
   .flexText p {
-    width: 95%;
-  }
-
-  .call {
-    width: 100%;
-    gap: 1rem;
-  }
-
-  .callNum p {
+    width: 80%;
     font-size: 16px;
   }
 
   .mail {
-    width: 90%;
-    margin-bottom: 1rem;
+    width: 76%;
   }
 
   .mailtext p {
     width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .flexText p {
+    width: 90%;
+  }
+
+  .call {
+    width: 100%;
+  }
+
+  .callNum p {
+    font-size: 14px;
+  }
+
+  .mail {
+    width: 85%;
   }
 }

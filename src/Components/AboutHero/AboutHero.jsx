@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./AboutHero.module.css";
+
 const AboutHero = () => {
   return (
     <div className={style.container}>

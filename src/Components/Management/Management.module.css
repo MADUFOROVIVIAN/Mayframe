@@ -60,10 +60,12 @@
 @media screen and (max-width: 768px) {
   .managementText h2 {
     font-size: 25px;
+    line-height: 35px;
   }
 
   .managementText p {
     font-size: 14px;
+    line-height: 21.08px;
   }
 }
 

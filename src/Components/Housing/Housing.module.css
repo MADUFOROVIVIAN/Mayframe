@@ -73,10 +73,12 @@
 @media screen and (max-width: 768px) {
   .housingText h2 {
     font-size: 25px;
+    line-height: 35px;
   }
 
   .housingText p {
     font-size: 14px;
+    line-height: 21.08px;
   }
 }
 
@@ -94,13 +96,8 @@
     width: 100%;
   }
 
-  .housingText h2 {
-    line-height: 35px;
-  }
-
   .housingText p {
     margin-bottom: 1rem;
-    line-height: 19.04px;
   }
 }
 

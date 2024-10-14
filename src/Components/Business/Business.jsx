@@ -31,7 +31,7 @@ const Business = () => {
                 helps businesses optimize their operations, overcome challenges,
                 and achieve sustainable growth.
               </p>
-              <Link to ="/about">
+              <Link to ="/consultancy">
               <h5>Learn more &#8594;</h5>
               </Link>
             </div>
@@ -51,7 +51,7 @@ const Business = () => {
                 guides its clients in making informed investment decisions that
                 align with their goals and risk tolerance.
               </p>
-              <Link to ="/about">
+              <Link to ="/investment">
               <h5>Learn more &#8594;</h5>
               </Link>
             </div>

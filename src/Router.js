@@ -8,7 +8,6 @@ import Investment from './Pages/Investment/Investment'
 import Property from './Pages/Property/Property'
 import Driving from './Pages/Driving/Driving'
 
-
 const Router = () => {
   return useRoutes(
     [

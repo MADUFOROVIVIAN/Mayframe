@@ -9,7 +9,7 @@
 }
 
 .consultancyText {
-  width: 50%;
+  width: 52%;
 }
 
 .consultancyText h2 {
@@ -17,25 +17,42 @@
   font-size: 40px;
   font-weight: 600;
   line-height: 48px;
-  width: 588px;
-  height: 48px;
+  color: #1f1f21;
+  width: 100%;
 }
 
 .consultancyText p {
   font-family: Lato;
-  font-size: 18.5px;
+  font-size: 21px;
   font-weight: 400;
   line-height: 28.04px;
   color: #515151;
-  width: 95%;
-  height: 196px;
+  width: 100%;
 }
 
 .consultancyImage {
-  width: 50%;
+  width: 48%;
+}
+
+.consultancyImage img {
+  width: 100%;
 }
 
 @media screen and (max-width: 1024px) {
+  .container {
+    gap: 1.5rem;
+  }
+
+  .consultancyText h2 {
+    font-size: 35px;
+  }
+
+  .consultancyText p {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 900px) {
   .consultancyText h2 {
     font-size: 30px;
   }
@@ -43,12 +60,37 @@
   .consultancyText p {
     font-size: 15.5px;
   }
+}
 
-  .consultancyImage img {
+@media screen and (max-width: 768px) {
+  .consultancyText h2 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .consultancyText p {
+    font-size: 14px;
+    line-height: 21.08px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    display: block;
+    margin-top: 3rem;
+  }
+
+  .consultancyText {
+    width: 95%;
+  }
+
+  .consultancyImage {
     width: 100%;
   }
 }
-@media screen and (max-width: 500px) {
-}
-@media screen and (max-width: 500px) {
+
+@media screen and (max-width: 425px) {
+  .consultancyText {
+    width: 100%;
+  }
 }

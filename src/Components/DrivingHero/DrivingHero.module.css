@@ -1,43 +1,69 @@
-.container{
-    width: 100%;
-    margin-bottom: 3rem;
+.container {
+  width: 100%;
+  margin-bottom: 3rem;
 }
 
-.topContainer{
-    width: 100%;
-    background-image: url(../../Assests/drivingBack.png);
-    background-repeat: no-repeat;
-    width: 1440px;
-    height: 900px;
-    padding-bottom: 6rem;
-    margin-top: -5rem;
+.topContainer {
+  width: 100%;
+  background-image: url(../../Assests/drivingBack.png);
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 900px;
+  padding-bottom: 6rem;
+  margin-top: -5rem;
 }
 
 .heroDown {
-    width: 85%;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    background: #fff;
-    padding: 1rem 2rem;
-    margin-top: -2rem;
-    border-bottom: 1.5px solid rgba(227 227 227 0.9333);
+  width: 85%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  padding: 1rem 2rem;
+  margin-top: -2rem;
+  border-bottom: 1.5px solid rgba(227 227 227 0.9333);
 }
 
-.experience h1{
-    font-family: Inter;
-    font-size: 40px;
-    font-weight: 700;
-    line-height: 48.41px;
-    color: #1429A9;
+.experience h1 {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48.41px;
+  color: #1429a9;
 }
 
-.experience p{
-    font-family: Lato;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 24px;
-    color: #515151;
-    width: 75%;
-    height: 48px;
+.experience p {
+  font-family: Lato;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #515151;
+  width: 75%;
+  height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .experience h1 {
+    font-size: 30px;
+    line-height: 38.41px;
+  }
+
+  .experience p {
+    font-size: 17px;
+    line-height: 23px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .container {
+    margin-bottom: 0rem;
+  }
+
+  .topContainer {
+    height: 600px;
+  }
+
+  .heroDown {
+    display: block;
+  }
 }
